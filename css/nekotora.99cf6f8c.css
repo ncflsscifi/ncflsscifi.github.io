@@ -22,6 +22,21 @@
                         /* Add a dark background */
                         background-color: rgba(0, 0, 0, 0.25);
                     }
+	.photo-bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+#kaygb-blog-a,
+#kaygb-mail-a {
+    display: none;
+}
+
 @media (max-width: 1199px) {
     body {
         min-height: 600px;
